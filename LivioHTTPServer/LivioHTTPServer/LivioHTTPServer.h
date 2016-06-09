@@ -68,6 +68,3 @@ FOUNDATION_EXPORT const unsigned char LivioHTTPServerVersionString[];
 #import <LivioHTTPServer/LHSServer.h>
 #import <LivioHTTPServer/LHSWebSocket.h>
 #import <LivioHTTPServer/LHSWebSocketDelegate.h>
-
-// GCDAsyncSocket
-#import <LivioHTTPServer/GCDAsyncSocket.h>
