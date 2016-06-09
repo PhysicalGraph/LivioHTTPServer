@@ -23,7 +23,7 @@
     const Byte *dataBuffer = self.bytes;
 
     for (int i = 0; i < self.length; ++i) {
-        [stringBuffer appendFormat:@"%02x", (UInt32)dataBuffer[i]];
+        [stringBuffer appendFormat:@"%02x", (unsigned int)dataBuffer[i]];
     }
 
     return stringBuffer;
