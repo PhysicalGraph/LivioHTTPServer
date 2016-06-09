@@ -7,15 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27925B4C1D09DFA700D36FE0 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27925B4B1D09DFA700D36FE0 /* CocoaAsyncSocket.framework */; };
+		27925B4F1D09DFF200D36FE0 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27925B4B1D09DFA700D36FE0 /* CocoaAsyncSocket.framework */; };
+		27925B511D09DFF800D36FE0 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27925B501D09DFF800D36FE0 /* CocoaAsyncSocket.framework */; };
+		27925B521D09DFFE00D36FE0 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27925B501D09DFF800D36FE0 /* CocoaAsyncSocket.framework */; };
+		27925B541D09E01200D36FE0 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27925B4B1D09DFA700D36FE0 /* CocoaAsyncSocket.framework */; };
 		5D10E50A1BB0520200E9A728 /* LHSServerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D10E5091BB0520200E9A728 /* LHSServerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5D1665101CEF5AE700CC4CA1 /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D16650C1CEF5AE700CC4CA1 /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5D1665111CEF5AE700CC4CA1 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D16650D1CEF5AE700CC4CA1 /* GCDAsyncSocket.m */; };
-		5D1665121CEF5AE700CC4CA1 /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D16650E1CEF5AE700CC4CA1 /* GCDAsyncUdpSocket.h */; };
-		5D1665131CEF5AE700CC4CA1 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D16650F1CEF5AE700CC4CA1 /* GCDAsyncUdpSocket.m */; };
-		5D1665141CEF5AF000CC4CA1 /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D16650C1CEF5AE700CC4CA1 /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5D1665161CEF5AFB00CC4CA1 /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D16650E1CEF5AE700CC4CA1 /* GCDAsyncUdpSocket.h */; };
-		5D1665251CEF7F1A00CC4CA1 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D16650D1CEF5AE700CC4CA1 /* GCDAsyncSocket.m */; };
-		5D1665261CEF7F1A00CC4CA1 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D16650F1CEF5AE700CC4CA1 /* GCDAsyncUdpSocket.m */; };
 		5D1665271CEF7F1A00CC4CA1 /* NSData+LHSData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4834021A9E6A3900252386 /* NSData+LHSData.m */; };
 		5D1665281CEF7F1A00CC4CA1 /* NSNumber+LHSNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4834041A9E6A3900252386 /* NSNumber+LHSNumber.m */; };
 		5D1665291CEF7F1A00CC4CA1 /* DDRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4834061A9E6A3900252386 /* DDRange.m */; };
@@ -49,8 +46,6 @@
 		5D1665461CEF7F6E00CC4CA1 /* LHSWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D48343A1A9E6A6D00252386 /* LHSWebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5D1665471CEF7F6E00CC4CA1 /* LHSConnectionConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D38109B1BA8927600B41AE3 /* LHSConnectionConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5D1665481CEF7F6E00CC4CA1 /* LivioHTTPServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D4834471A9E6A8200252386 /* LivioHTTPServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5D1665491CEF7F8900CC4CA1 /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D16650C1CEF5AE700CC4CA1 /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5D16654A1CEF7F8900CC4CA1 /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D16650E1CEF5AE700CC4CA1 /* GCDAsyncUdpSocket.h */; };
 		5D16654B1CEF7F8900CC4CA1 /* NSData+LHSData.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D4834011A9E6A3900252386 /* NSData+LHSData.h */; };
 		5D16654C1CEF7F8900CC4CA1 /* NSNumber+LHSNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D4834031A9E6A3900252386 /* NSNumber+LHSNumber.h */; };
 		5D16654D1CEF7F8900CC4CA1 /* DDRange.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D4834051A9E6A3900252386 /* DDRange.h */; };
@@ -162,11 +157,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		27925B4B1D09DFA700D36FE0 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaAsyncSocket.framework; path = ../Carthage/Build/iOS/CocoaAsyncSocket.framework; sourceTree = "<group>"; };
+		27925B501D09DFF800D36FE0 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaAsyncSocket.framework; path = ../Carthage/Build/Mac/CocoaAsyncSocket.framework; sourceTree = "<group>"; };
 		5D10E5091BB0520200E9A728 /* LHSServerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LHSServerDelegate.h; path = LivioHTTPServer/Core/LHSServerDelegate.h; sourceTree = SOURCE_ROOT; };
-		5D16650C1CEF5AE700CC4CA1 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = CocoaAsyncSocketGCD/GCDAsyncSocket.h; sourceTree = SOURCE_ROOT; };
-		5D16650D1CEF5AE700CC4CA1 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = CocoaAsyncSocketGCD/GCDAsyncSocket.m; sourceTree = SOURCE_ROOT; };
-		5D16650E1CEF5AE700CC4CA1 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = CocoaAsyncSocketGCD/GCDAsyncUdpSocket.h; sourceTree = SOURCE_ROOT; };
-		5D16650F1CEF5AE700CC4CA1 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = CocoaAsyncSocketGCD/GCDAsyncUdpSocket.m; sourceTree = SOURCE_ROOT; };
 		5D16651C1CEF7E9200CC4CA1 /* libLivioHTTPServer-Static.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libLivioHTTPServer-Static.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D38109B1BA8927600B41AE3 /* LHSConnectionConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LHSConnectionConfig.h; path = LivioHTTPServer/Core/LHSConnectionConfig.h; sourceTree = SOURCE_ROOT; };
 		5D38109C1BA8927600B41AE3 /* LHSConnectionConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LHSConnectionConfig.m; path = LivioHTTPServer/Core/LHSConnectionConfig.m; sourceTree = SOURCE_ROOT; };
@@ -225,6 +218,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27925B541D09E01200D36FE0 /* CocoaAsyncSocket.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +226,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27925B511D09DFF800D36FE0 /* CocoaAsyncSocket.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D3CD6C91AA0F4B300987CC1 /* LivioHTTPServer_Mac.framework in Frameworks */,
+				27925B521D09DFFE00D36FE0 /* CocoaAsyncSocket.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +243,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27925B4C1D09DFA700D36FE0 /* CocoaAsyncSocket.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,29 +252,36 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D48345A1A9E7B6900252386 /* LivioHTTPServer.framework in Frameworks */,
+				27925B4F1D09DFF200D36FE0 /* CocoaAsyncSocket.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5D16650A1CEF5ACA00CC4CA1 /* Libs */ = {
+		27925B4D1D09DFAC00D36FE0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5D16650B1CEF5AD000CC4CA1 /* CocoaAsyncSocket */,
+				27925B531D09E00200D36FE0 /* Mac */,
+				27925B4E1D09DFB300D36FE0 /* iOS */,
 			);
-			name = Libs;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5D16650B1CEF5AD000CC4CA1 /* CocoaAsyncSocket */ = {
+		27925B4E1D09DFB300D36FE0 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				5D16650C1CEF5AE700CC4CA1 /* GCDAsyncSocket.h */,
-				5D16650D1CEF5AE700CC4CA1 /* GCDAsyncSocket.m */,
-				5D16650E1CEF5AE700CC4CA1 /* GCDAsyncUdpSocket.h */,
-				5D16650F1CEF5AE700CC4CA1 /* GCDAsyncUdpSocket.m */,
+				27925B4B1D09DFA700D36FE0 /* CocoaAsyncSocket.framework */,
 			);
-			name = CocoaAsyncSocket;
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		27925B531D09E00200D36FE0 /* Mac */ = {
+			isa = PBXGroup;
+			children = (
+				27925B501D09DFF800D36FE0 /* CocoaAsyncSocket.framework */,
+			);
+			name = Mac;
 			sourceTree = "<group>";
 		};
 		5D3CD6BF1AA0F4B300987CC1 /* LivioHTTPServer-Mac */ = {
@@ -321,6 +325,7 @@
 				5D4834551A9E7B6900252386 /* LivioHTTPServerTests */,
 				5D3CD6BF1AA0F4B300987CC1 /* LivioHTTPServer-Mac */,
 				5D3CD6CC1AA0F4B300987CC1 /* LivioHTTPServer-MacTests */,
+				27925B4D1D09DFAC00D36FE0 /* Frameworks */,
 				5D4833981A9E574400252386 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -340,7 +345,6 @@
 		5D4833991A9E574400252386 /* LivioHTTPServer */ = {
 			isa = PBXGroup;
 			children = (
-				5D16650A1CEF5ACA00CC4CA1 /* Libs */,
 				5D4833B31A9E577000252386 /* Categories */,
 				5D4833BA1A9E577000252386 /* Mime */,
 				5D4833C11A9E577000252386 /* Responses */,
@@ -497,8 +501,6 @@
 				5D16654F1CEF7F9600CC4CA1 /* LHSMultipartMessageHeader.h in Headers */,
 				5D1665501CEF7F9600CC4CA1 /* LHSMultipartMessageHeaderField.h in Headers */,
 				5D1665511CEF7F9600CC4CA1 /* LHSResponse.h in Headers */,
-				5D1665491CEF7F8900CC4CA1 /* GCDAsyncSocket.h in Headers */,
-				5D16654A1CEF7F8900CC4CA1 /* GCDAsyncUdpSocket.h in Headers */,
 				5D16654B1CEF7F8900CC4CA1 /* NSData+LHSData.h in Headers */,
 				5D16654C1CEF7F8900CC4CA1 /* NSNumber+LHSNumber.h in Headers */,
 				5D16654D1CEF7F8900CC4CA1 /* DDRange.h in Headers */,
@@ -520,7 +522,6 @@
 				5D3CD6DC1AA0F56600987CC1 /* LHSMultipartMessageHeaderField.h in Headers */,
 				5D3CD6D91AA0F55900987CC1 /* DDRange.h in Headers */,
 				5D3CD6DE1AA0F57700987CC1 /* LHSAsyncFileResponse.h in Headers */,
-				5D1665141CEF5AF000CC4CA1 /* GCDAsyncSocket.h in Headers */,
 				5D3CD6D71AA0F55200987CC1 /* NSData+LHSData.h in Headers */,
 				5D3CD6DA1AA0F55E00987CC1 /* LHSMultipartFormDataParser.h in Headers */,
 				5D3CD6E21AA0F57700987CC1 /* LHSFileResponse.h in Headers */,
@@ -530,7 +531,6 @@
 				5D77FA401B5D3ACF0013F9A7 /* LHSWebSocketDelegate.h in Headers */,
 				5D3CD6C31AA0F4B300987CC1 /* LivioHTTPServer-Mac.h in Headers */,
 				5D3CD6E71AA0F58C00987CC1 /* LHSServer.h in Headers */,
-				5D1665161CEF5AFB00CC4CA1 /* GCDAsyncUdpSocket.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -545,10 +545,8 @@
 				5D48342D1A9E6A6100252386 /* LHSFileResponse.h in Headers */,
 				5D4834291A9E6A6100252386 /* LHSDynamicFileResponse.h in Headers */,
 				5D4834131A9E6A4500252386 /* LHSMultipartFormDataParser.h in Headers */,
-				5D1665121CEF5AE700CC4CA1 /* GCDAsyncUdpSocket.h in Headers */,
 				5D4834451A9E6A6D00252386 /* LHSWebSocket.h in Headers */,
 				5D48343E1A9E6A6D00252386 /* LHSConnection.h in Headers */,
-				5D1665101CEF5AE700CC4CA1 /* GCDAsyncSocket.h in Headers */,
 				5D4834401A9E6A6D00252386 /* LHSMessage.h in Headers */,
 				5D10E50A1BB0520200E9A728 /* LHSServerDelegate.h in Headers */,
 				5D4834251A9E6A6100252386 /* LHSAsyncFileResponse.h in Headers */,
@@ -611,6 +609,7 @@
 				5D3CD6C41AA0F4B300987CC1 /* Sources */,
 				5D3CD6C51AA0F4B300987CC1 /* Frameworks */,
 				5D3CD6C61AA0F4B300987CC1 /* Resources */,
+				27925B4A1D09DF8B00D36FE0 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -648,6 +647,7 @@
 				5D4834501A9E7B6900252386 /* Sources */,
 				5D4834511A9E7B6900252386 /* Frameworks */,
 				5D4834521A9E7B6900252386 /* Resources */,
+				27925B491D09DF8400D36FE0 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -737,13 +737,42 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		27925B491D09DF8400D36FE0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/../Carthage/Build/iOS/CocoaAsyncSocket.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		27925B4A1D09DF8B00D36FE0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/../Carthage/Build/Mac/CocoaAsyncSocket.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5D1665181CEF7E9200CC4CA1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D1665251CEF7F1A00CC4CA1 /* GCDAsyncSocket.m in Sources */,
-				5D1665261CEF7F1A00CC4CA1 /* GCDAsyncUdpSocket.m in Sources */,
 				5D1665271CEF7F1A00CC4CA1 /* NSData+LHSData.m in Sources */,
 				5D1665281CEF7F1A00CC4CA1 /* NSNumber+LHSNumber.m in Sources */,
 				5D1665291CEF7F1A00CC4CA1 /* DDRange.m in Sources */,
@@ -800,9 +829,7 @@
 				5D48340A1A9E6A3900252386 /* NSNumber+LHSNumber.m in Sources */,
 				5D4834411A9E6A6D00252386 /* LHSMessage.m in Sources */,
 				5D48342A1A9E6A6100252386 /* LHSDynamicFileResponse.m in Sources */,
-				5D1665131CEF5AE700CC4CA1 /* GCDAsyncUdpSocket.m in Sources */,
 				5D4834261A9E6A6100252386 /* LHSAsyncFileResponse.m in Sources */,
-				5D1665111CEF5AE700CC4CA1 /* GCDAsyncSocket.m in Sources */,
 				5D38109E1BA8927600B41AE3 /* LHSConnectionConfig.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -866,6 +893,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Carthage/Build/Mac";
 				FRAMEWORK_VERSION = A;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -891,6 +919,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Carthage/Build/Mac";
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "LivioHTTPServer-Mac/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -910,6 +939,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
+					"$(SRCROOT)/../Carthage/Build/Mac",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -932,6 +962,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
+					"$(SRCROOT)/../Carthage/Build/Mac",
 				);
 				INFOPLIST_FILE = "LivioHTTPServer-MacTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
@@ -1034,7 +1065,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = LivioHTTPServer/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -1053,7 +1087,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = LivioHTTPServer/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -1067,6 +1104,7 @@
 		5D48345E1A9E7B6900252386 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Carthage/Build/iOS";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -1081,6 +1119,7 @@
 		5D48345F1A9E7B6900252386 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Carthage/Build/iOS";
 				INFOPLIST_FILE = LivioHTTPServerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.livio.$(PRODUCT_NAME:rfc1034identifier)";

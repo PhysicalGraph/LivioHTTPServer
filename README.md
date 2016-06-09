@@ -20,3 +20,21 @@ Sometimes developers need an embedded HTTP server in their app. Perhaps it's a s
 -   Heavily commented code
 -   Very easily extensible
 -   WebDAV is supported too!
+
+## Getting Started
+
+If you’re using [Carthage](https://github.com/Carthage/Carthage), simply add LivioHTTPServer to your `Cartfile`:
+
+```
+github "PhysicalGraph/LivioHTTPServer"
+```
+Make sure to add `CocoaAsyncSocket.framework` to "Linked Frameworks and Libraries" and "copy-frameworks" Build Phases.
+
+To manually add LivioHTTPServer to your application:
+
+1. Add the LivioHTTPServer repository as a submodule of your application's repository.
+2. Run `git submodule sync --quiet && git submodule update --init` from within the LivioHTTPServer folder.
+3. Drag and drop `LivioHTTPServer.xcodeproj`, `Carthage/Checkouts/CocoaAsyncSocket/CocoaAsyncSocket.xcodeproj` into the top-level of your application's project file or workspace.
+4. On the "Build Phases" tab of your application target, add `LivioHTTPServer.framework`, and `CocoaAsyncSocket.framework` to the "Link Binary With Libraries" phase.
+5. Add `$(OBJROOT)/UninstalledProducts/include` and `$(inherited)` to the "Header Search Paths" build setting (this is only necessary for archive builds, but it has no negative effect otherwise).
+6. **For iOS targets**, add `-ObjC` to the "Other Linker Flags" build setting.

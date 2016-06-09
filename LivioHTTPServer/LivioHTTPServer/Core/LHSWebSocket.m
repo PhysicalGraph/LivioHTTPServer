@@ -1,7 +1,7 @@
 
 #import "LHSWebSocket.h"
 #import "LHSMessage.h"
-#import "GCDAsyncSocket.h"
+#import <CocoaAsyncSocket/GCDAsyncSocket.h>
 #import "NSNumber+LHSNumber.h"
 #import "NSData+LHSData.h"
 
