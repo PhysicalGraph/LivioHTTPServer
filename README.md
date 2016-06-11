@@ -26,9 +26,9 @@ Sometimes developers need an embedded HTTP server in their app. Perhaps it's a s
 If you’re using [Carthage](https://github.com/Carthage/Carthage), simply add LivioHTTPServer to your `Cartfile`:
 
 ```
-github "PhysicalGraph/LivioHTTPServer"
+github "livio/LivioHTTPServer"
 ```
-Make sure to add `CocoaAsyncSocket.framework` to "Linked Frameworks and Libraries" and "copy-frameworks" Build Phases.
+Make sure to add `CocoaAsyncSocket.framework` to "Linked Frameworks and Libraries" and "copy-frameworks" Build Phases. [More Information on Carthage](https://github.com/Carthage/Carthage#if-youre-building-for-ios-tvos-or-watchos)
 
 To manually add LivioHTTPServer to your application:
 
